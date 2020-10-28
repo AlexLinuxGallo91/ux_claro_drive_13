@@ -162,7 +162,7 @@ class EvaluacionesClaroDriveSteps:
                 boton_crear, class_name=const_claro_drive.CARGA_ARCHIVO_CLASS_NAME_BTN_CREATE_RESOURCE)
 
             HtmlActions.webdriver_wait_presence_of_element_located(
-                webdriver_test_ux, 60, class_name=const_claro_drive.CARGA_ARCHIVO_CLASS_NAME_FILE_NAME_READER)
+                webdriver_test_ux, 300, class_name=const_claro_drive.CARGA_ARCHIVO_CLASS_NAME_FILE_NAME_READER)
 
             input_file = HtmlActions.webdriver_wait_presence_of_element_located(
                 webdriver_test_ux, 20, id=const_claro_drive.CARGA_ARCHIVO_ID_INPUT_FILE_START)
